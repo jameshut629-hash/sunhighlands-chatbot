@@ -14,7 +14,7 @@ export default function Page() {
     <div style={{ margin: 0, padding: 0, background: '#fffbeb', fontFamily: 'Poppins, sans-serif', minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
       <div style={{ textAlign: 'center', maxWidth: '420px', margin: '0 auto', padding: '24px' }}>
         <div style={{ width: '64px', height: '64px', borderRadius: '16px', background: 'linear-gradient(135deg, #f59e0b, #d97706)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 24px', boxShadow: '0 10px 15px -3px rgba(245,158,11,.2)', overflow: 'hidden' }}>
-          <img src="https://www.sunhighlands.com.au/cdn/shop/files/logo.png" alt="SH" style={{ width: '36px', height: '36px', objectFit: 'contain' }} />
+          <img src="https://www.sunhighlands.com.au/cdn/shop/files/sunhighlands_logo.webp?v=1695292314" alt="SH" style={{ width: '36px', height: '36px', objectFit: 'contain' }} />
         </div>
         <h1 style={{ fontSize: '24px', fontWeight: 700, color: '#78350f', marginBottom: '8px' }}>Sunhighlands Chatbot</h1>
         <p style={{ color: '#92400e', fontSize: '14px', lineHeight: '1.6', marginBottom: '24px' }}>

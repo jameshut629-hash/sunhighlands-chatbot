@@ -14,7 +14,7 @@ var SH_EMBED_LOADED=document.getElementById('sh-chatbot-embed-check');
 if(SH_EMBED_LOADED){console.log('[Sunhighlands] Already loaded');return;}
 
 var SH_SERVER='${serverUrl}';
-var SH_LOGO='https://www.sunhighlands.com.au/cdn/shop/files/logo.png';
+var SH_LOGO='https://www.sunhighlands.com.au/cdn/shop/files/sunhighlands_logo.webp?v=1695292314';
 var SH_GREETING="G\\u2019day! I\\u2019m Liam from Sunhighlands Australia!\\nHow can I help you today \\u2014 finding the right Manuka honey, learning about MGO ratings, or tracking an order?";
 
 var fontLink=document.createElement('link');fontLink.rel='stylesheet';fontLink.href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap';document.head.appendChild(fontLink);
@@ -57,7 +57,7 @@ console.log('[Sunhighlands] Chatbot loaded from '+SH_SERVER);
 
 export async function GET(request: NextRequest) {
   const proto = request.headers.get('x-forwarded-proto') || 'https';
-  const host = request.headers.get('host') || 'azu-chatbot.vercel.app';
+  const host = request.headers.get('host') || 'sunhighlands-chatbot.vercel.app';
   const origin = `${proto}://${host}`;
 
   const script = generateEmbedScript(origin);
